@@ -1,22 +1,18 @@
-/* Псевдоклас та псевдоелемент */
 .info p:first-letter {
   font-size: 22px;
   font-weight: bold;
   color: #e91e63;
 }
-
 h2::after {
   content: " 🌷";
 }
-
-/* Адаптивність */
 @media (max-width: 600px) {
   .products {
     flex-direction: column;
     align-items: center;
   }
-
   .product-card {
     width: 80%;
   }
+
 }
